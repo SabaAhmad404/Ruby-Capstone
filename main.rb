@@ -1,6 +1,9 @@
 require_relative './classes/game/game_logic'
+require_relative './classes/game/path_finder'
 require_relative './classes/game/load_game_data'
 require_relative './classes/game/get_user_data'
+require_relative './classes/music/music'
+require_relative './classes/book/booklabelmodule'
 
 class Main
   include BookLabel

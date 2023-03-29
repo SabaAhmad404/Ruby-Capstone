@@ -10,7 +10,6 @@ class Label
 
   def add_item(item)
     @items << item
-    items.add_label = self
   end
 
   def to_json(*_args)
