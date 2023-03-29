@@ -101,9 +101,9 @@ Saba Ahmad
 
 👤 **Author2**
 
-Github: @teke85
-Twitter: @muttau
-LinkedIn: isiteketo mutau
+- Github: @teke85
+- Twitter: @muttau
+- LinkedIn: isiteketo mutau
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
