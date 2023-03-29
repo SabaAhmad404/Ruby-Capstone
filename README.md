@@ -100,13 +100,17 @@ Saba Ahmad
 - LinkedIn: [@saba ahmad](https://www.linkedin.com/in/saba-ahmad-97b938244/)
 
 👤 **Author2**
+
  Isiteketo Mutau
+ 
 - GitHub: [@teke85](https://github.com/teke85)
 - Twitter: [@muttau](https://twitter.com/muttau)
 - LinkedIn: [isiteketo mutau](https://www.linkedin.com/in/isiteketo-mutau-736894241/)
 
 👤 **Author2**
+
   Haliljon Juraboev
+  
 - GitHub: [@githubhaliljon](https://github.com/haliljon)
 - Twitter: [@twitterhaliljon1](https://twitter.com/haliljon1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juraboev-haliljon)
