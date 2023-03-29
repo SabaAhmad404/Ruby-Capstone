@@ -1,7 +1,6 @@
 require_relative './classes/game/game_logic'
 require_relative './classes/game/load_game_data'
 require_relative './classes/game/get_user_data'
-require_relative 'book/booklabelmodule'
 
 class Main
   include BookLabel
@@ -12,7 +11,6 @@ class Main
 
   def director(user_answer)
     music = Music.new
-
     case user_answer
     when 1
       list_all_books
@@ -25,7 +23,7 @@ class Main
       # '4 List all genres'
       music.list_genre
     when 5
-      book.list_all_labels
+      list_all_labels
     when 6
       all_authors(@all_authors)
     else
