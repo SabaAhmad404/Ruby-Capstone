@@ -31,6 +31,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 - [Ruby](https://www.ruby-lang.org/en/)
+- RSPEC
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
