@@ -6,7 +6,6 @@ source varchar(100),
 label varchar(100),
 publish_date date,
 archived boolean
-
 )
 
 CREATE TABLE genre (
@@ -23,7 +22,6 @@ Create Table author (
 )
 
 CREATE TABLE source (
-
     id serial primary key,
     item_id INT REFERENCES item(id),
     name varchar(200)
@@ -49,7 +47,7 @@ Create Table book(
     archived Boolean
 )
 
- Create Table musicalbum(
+ Create Table musicalbum (
     id serial primary key,
     item_id INT REFERENCES item(id),
     genre_id INT REFERENCES genre(id),
@@ -60,3 +58,17 @@ Create Table book(
     publish_date Date Not NULL,
     archived boolean
  )
+
+ CREATE TABLE Game (
+    id SERIAL PRIMARY KEY,
+    genre_id INTEGER,
+    label_id INTEGER,
+    author_id INTEGER,
+    source_id INTEGER,
+    archived BOOLEAN,
+    multiplayer VARCHAR(5)
+    last_played_at DATE,
+    FOREIGN KEY (genre_id) REFERENCES Genre (id),
+    FOREIGN KEY (author_id) REFERENCES Authors (id),
+    FOREIGN KEY (label_id) REFERENCES Label (id),
+);
