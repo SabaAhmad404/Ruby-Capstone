@@ -72,3 +72,26 @@ Create Table book(
     FOREIGN KEY (author_id) REFERENCES Authors (id),
     FOREIGN KEY (label_id) REFERENCES Label (id),
 );
+
+
+-- index on foriegn keys
+
+CREATE INDEX book_item_id_index ON book(item_id)
+CREATE INDEX book_genre_id_index ON book(genre_id)
+CREATE INDEX book_author_id_index ON book(author_id)
+CREATE INDEX book_source_id_index ON book(source_id)
+CREATE INDEX book_labels_id_index ON book(labels_id)
+
+-- index on music album table forign keys
+
+CREATE INDEX musicalbum_item_id_index ON musicalbum(item_id)
+CREATE INDEX musicalbum_genre_id_index ON musicalbum(genre_id)
+CREATE INDEX musicalbum_author_id_index ON musicalbum(author_id)
+CREATE INDEX musicalbum_source_id_index ON musicalbum(source_id)
+CREATE INDEX musicalbum_labels_id_index ON musicalbum(labels_id)
+
+-- index on game table forign keys
+
+CREATE INDEX Game_genre_id_index ON Game(genre_id)
+CREATE INDEX Game_author_id_index ON Game(author_id)
+CREATE INDEX Game_labels_id_index ON Game(labels_id)
