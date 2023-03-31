@@ -1,0 +1,20 @@
+[
+  {
+    "title": "The 10 Best Places to Visit in the USA",
+    "color": "red",
+    "items": [
+      {
+        "publisher": "NY Times",
+        "cover_state": "good",
+        "publish_date": "2019-10-12T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "title": "Afaf",
+    "color": "fsdf",
+    "items": [
+      "{\"publish_date\":\"2012-11-03T00:00:00+00:00\",\"publisher\":\"dfaf\",\"cover_state\":\"g\"}"
+    ]
+  }
+]
