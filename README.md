@@ -83,9 +83,13 @@ Clone this repository to your desired folder:
 
 - On the terminal run this command git clone https://github.com/SabaAhmad404/Ruby-Capstone.git
 
-- Go to the repository folder using command prompt cd OOP-School-Library
+- Go to the repository folder using command prompt cd Ruby-Capstone
 
-- Install the dev dependencies for linters run npm install.
+- On the Terminal run `bundle install` to be able to run the App
+
+- On the Terminal run `ruby main.rb` in order to run the App
+
+- For the tests run `rspec spec --format documentation`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,16 +106,16 @@ Saba Ahmad
 
 👤 **Author2**
 
- Isiteketo Mutau
- 
+Isiteketo Mutau
+
 - GitHub: [@teke85](https://github.com/teke85)
 - Twitter: [@muttau](https://twitter.com/muttau)
 - LinkedIn: [isiteketo mutau](https://www.linkedin.com/in/isiteketo-mutau-736894241/)
 
 👤 **Author2**
 
-  Haliljon Juraboev
-  
+Haliljon Juraboev
+
 - GitHub: [@githubhaliljon](https://github.com/haliljon)
 - Twitter: [@twitterhaliljon1](https://twitter.com/haliljon1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juraboev-haliljon)

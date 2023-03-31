@@ -5,6 +5,16 @@ describe MusicAlbum do
     @music = MusicAlbum.new('2023/03/23', true, true)
   end
 
+  context '# initialize method' do
+    it 'should return a music object' do
+      expect(@music).to be_a_kind_of(MusicAlbum)
+    end
+
+    it 'should return a music object with a on_spotify' do
+      on_spotify = @music.instance_variable_get(:@on_spotify)
+      expect(on_spotify).to eq(true)
+    end
+  end
   context 'Test MusicAlbum with methods' do
     it 'Expecting new instance' do
       expect(@music).to be_instance_of(MusicAlbum)

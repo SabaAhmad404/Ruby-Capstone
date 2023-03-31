@@ -39,6 +39,7 @@ module BookLabel
     print 'Color: '
     color = gets.chomp
     label = Label.new(title, color)
+    puts 'Label added successfully'
     book_item = book.to_json
     label.add_item(book_item)
 
@@ -46,7 +47,6 @@ module BookLabel
     store_label(label)
 
     puts 'Book added successfully'
-    puts 'Label added successfully'
   end
 
   def store_book(book)
@@ -57,7 +57,7 @@ module BookLabel
 
   def store_label(label)
     labels = fetch_labels
-    labels << label
+    labels << label.to_json
     File.write('./classes/book/labels.json', JSON.pretty_generate(labels), mode: 'w')
   end
 

@@ -5,38 +5,8 @@
     "publish_date": "2002-10-10T00:00:00+00:00"
   },
   {
-    "publish_date": "2022-05-26T00:00:00+00:00",
-    "publisher": "SF times",
-    "cover_state": "good"
-  },
-  {
-    "publish_date": "2012-04-23T00:00:00+00:00",
-    "publisher": "qwew",
-    "cover_state": "bad"
-  },
-  {
-    "publish_date": "2012-05-23T00:00:00+00:00",
-    "publisher": "da",
-    "cover_state": "bad"
-  },
-  {
-    "publish_date": "2012-05-28T00:00:00+00:00",
-    "publisher": "cad",
-    "cover_state": "bad"
-  },
-  {
-    "publish_date": "2013-05-25T00:00:00+00:00",
-    "publisher": "ds",
-    "cover_state": "bad"
-  },
-  {
-    "publish_date": "2023-04-10T00:00:00+00:00",
-    "publisher": "vsfd",
-    "cover_state": "bad"
-  },
-  {
-    "publish_date": "2023-04-12T00:00:00+00:00",
-    "publisher": "fdsf",
-    "cover_state": "bad"
+    "publish_date": "2012-11-03T00:00:00+00:00",
+    "publisher": "dfaf",
+    "cover_state": "g"
   }
 ]

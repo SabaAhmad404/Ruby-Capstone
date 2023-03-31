@@ -16,9 +16,9 @@ class Book < Item
 
   def to_json(*args)
     {
-      'publish_date' => @publish_date,
-      'publisher' => @publisher,
-      'cover_state' => @cover_state
+      publish_date: @publish_date,
+      publisher: @publisher,
+      cover_state: @cover_state
     }.to_json(*args)
   end
 end
