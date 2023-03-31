@@ -74,6 +74,17 @@ Create Table book(
 );
 
 
+-- index on genre table
+ CREATE INDEX genre_item_id_index ON genre(item_id)
+
+ -- index on author table
+ CREATE INDEX author_item_id_index ON author(item_id)
+ -- index on source table
+ CREATE INDEX source_item_id_index ON source(item_id)
+ -- index on labels table
+ CREATE INDEX labels_item_id_index ON labels(item_id)
+
+
 -- index on foriegn keys
 
 CREATE INDEX book_item_id_index ON book(item_id)
